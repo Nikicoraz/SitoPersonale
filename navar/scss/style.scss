@@ -1,0 +1,35 @@
+@import "config";
+
+nav{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: $nav-bar-color;
+    width: 100%;
+    height: $nav-bar-height;
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    *{
+        transition: 1s;
+        color: $text-color;
+        text-decoration: none;
+        flex-basis: 100%;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin: auto;
+        width: auto;
+        font-size: 30pt;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        &:hover{
+            color: $hover-color;
+        }
+    }
+}
+
+body{
+    padding-top: $nav-bar-height;
+}
+@import "mobile";

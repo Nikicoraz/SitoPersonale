@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+    border: 1px solid green;
+    background-color: azure;
+    padding: 6vh 0;
+}
+
+main>h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main>div{
+    background-color: rgb(227, 255, 255);
+    border: 4px solid rgb(191, 255, 191);
+    display: flex;
+    margin: 1vh auto;
+    column-gap: 0.5rem;
+    padding: 0 1vw;
+}
+
+main > button{
+    height: 5vh;
+    width: 50%;
+    align-self: center;
+    margin-bottom: 3vh;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+}
+main > button:hover{
+    background-color: hsl(84, 76%, 53%);
+}
+main > button:active{
+    background-color: hsl(84, 76%, 43%);
+}
+
+alert{
+    background-color: white;
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    top: 0%;
+    border: 1px solid black;
+    padding: 2rem;
+    top: 1vh;
+    z-index: 100;
+}
+
+/* I contenitori dei giorni ore e minuti */
+
+main>div>div{
+    text-align: center;
+    padding: 0 2vw;
+}
+main>div>div.giorni{
+    border-right: 4px solid rgb(191, 255, 191);
+
+}
+main>div>div.minuti{
+    border-left: 4px solid rgb(191, 255, 191);
+}
+
+/* Qustionario per le date */
+
+questionWindow{
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.4);
+    top: 0;
+}
+formWindow{
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 70vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+}
+
+formWindow > label{
+    position: absolute;
+    left: 95%;
+    top: 3%;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+formWindow > h1{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center;
+}
+formWindow > form{
+    display: flex;
+    position: relative;
+    width: 30%;
+    margin: 5vh auto;
+    flex-direction: column;
+    row-gap: 1vh;
+    padding: 2rem
+}
+formWindow > form > input{
+    padding: 1vh;
+}
+
+formWindow > form > button{
+    padding: 1vh;
+    font-size: 1.2rem;
+    font-weight: 100;
+}

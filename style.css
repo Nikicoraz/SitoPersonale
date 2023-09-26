@@ -1,0 +1,30 @@
+:root{
+    --bg: #232582;
+    --text: white;
+    --highlight: #F64C72;
+    --light: #99738e;
+    --darkerlight: #553D67;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0 auto;
+    text-align: center;
+    text-wrap: wrap;
+    width: 40%;
+}
+
+h1{
+    position: relative;
+    font-size: 5rem;
+}
+
+a{
+    color: var(--highlight);
+}
+
+a:hover{
+    color: var(--light);
+}

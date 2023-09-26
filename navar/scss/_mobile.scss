@@ -1,0 +1,18 @@
+@media screen and (max-width: 1100px) {
+    nav{
+        font-size: 3pt;
+        height: 15%;
+    }
+    body{
+        padding: 10%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav{
+        display: none;
+    }
+    body{
+        padding-top: none;
+    }
+}
