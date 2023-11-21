@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: var(--bg);
+    background: radial-gradient(circle, var(--bg) 0%, rgb(33, 34, 112) 50%);;
     color: var(--text);
     margin: 0 auto;
     text-wrap: wrap;
@@ -44,4 +44,15 @@ a:hover{
 
 .line-list{
     list-style-type: "- ";
+}
+
+footer{
+    margin-top: 5vh;
+}
+
+#froge{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: hsl(239, 58%, 37%);
 }
