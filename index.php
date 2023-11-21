@@ -15,6 +15,7 @@
         <p>I have a raspberry running docker and a lot of services like Jellyfin, Bitwarden ecc.</p>
         <p>I've used a lot of <a href="programming.html">programming languages</a>, but the ones I used the most are C, C#, Java, Python, HTML, CSS, JavaScript.</p>
         <p>Check out my <a href="https://github.com/Nikicoraz">Github</a> for a lot of <em>(unfinished)</em> projects ;)</p>
+        <p>I'm also a bit of a <em>haha</em> GAMER. <a href="https://steamcommunity.com/profiles/76561198076176504/">My steam profile.</a></p>
         <p>Also I use arch btw.</p>
     </div>
     <h2>Some random pages that I have made:</h2>
