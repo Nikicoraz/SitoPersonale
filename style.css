@@ -11,14 +11,18 @@ body{
     background-color: var(--bg);
     color: var(--text);
     margin: 0 auto;
-    text-align: center;
     text-wrap: wrap;
-    width: 40%;
+    width: 90%;
+    text-align: center;
 }
 
 h1{
-    position: relative;
-    font-size: 5rem;
+    font-size: 3rem;
+}
+
+#bio{
+    max-width: 800px;
+    margin: auto;
 }
 
 a{
@@ -27,4 +31,17 @@ a{
 
 a:hover{
     color: var(--light);
+}
+
+.center{
+    margin: auto;
+    width: fit-content;
+}
+
+.center *{
+    width: fit-content;
+}
+
+.line-list{
+    list-style-type: "- ";
 }
